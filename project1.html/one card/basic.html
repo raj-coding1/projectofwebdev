@@ -5,10 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONE CARD</title>
     <style>
+        .main{
+            height: 40px;
+            width: 80%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            /* align-items: center; */
+            justify-content: center;
+        }
+        .main>div{
+/* border: 1px solid black; */
+/* padding: 20px; */
+height: 100%;
+margin: auto;
+width: 110px;
+font-style: manrope;
+            font-size: 800;
+            font-weight: bold;
+/* flex-grow: 2; */
+
+        }
+        .logo{
+            flex-grow: 1;
+        }
+        /* div{
+            
+        } */
+        .main1{
+            /* border: 1px solid black; */
+            display: flex;
+            height: 500px;
+            width: 80%;
+            margin: auto;
+        }
+        .main1>div{
+          
+            height: 90%;
+            width: 50%;
+            /* justify-content: baseline; */
+            margin: auto;
+          
+        }
+        #container{
+            height: 90%;
+            width: 50%;
+            display: flex;
+            /* border: 1px solid black; */
+            flex-direction: column;
+        }
+        #container>div{
+            height: 100px;
+            width: 290px;
+            display: flex;
+          
+        }
+        /* #first>div{
+            border: 1px solid black;
+        } */
+        video{
+            height: 100%;
+            width: 100%;
+        }
+        #first>img{
+            height: 100%;
+            width: 100%;
+        }
+        .Manrope{
+            font-family: Manrope;
+            font-size: 72px;
+            line-height: 1px;
+            font-weight: 800;
+        }
+        .x{
+            font-family: Manrope;
+            font-size: 36px;
+            line-height: 120px;
+            font-weight: 700;
+        }
+        .y{
+            font-family: Manrope;
+            font-size: 18px;
+            line-height: 75px;
+            font-weight: 700;
+        }
+        .z{
+            font-family: Manrope;
+            font-size: 18px;
+            line-height: 20px;
+        }
         
     </style>
 </head>
 <body>
-    
+   <div class="main">
+    <div class="logo">
+        <img height="40px" src="https://www.getonecard.app/images/logo_black.svg" alt="image"/>
+    </div>
+    <div>Home</div>
+    <div>About Us</div>
+    <div>Carrers</div>
+    <div>Offers</div>
+    <div>Blog</div>
+    <div>FAQ</div>
+    <div>Contact Us</div>
+    <div>
+        <button>Apply Now</button>
+    </div>
+   </div> 
+   <div class="main1">
+    <div id="container">
+        <div>
+            <p class="x">Say Hi to</p>
+        </div>
+        <div>
+            <p class="Manrope">OneCard</p>
+        </div>
+       
+        <div>
+            <p class="y">Co-branded Card Issuers :</p>
+        </div>
+       
+       
+            <div id="first">
+                <img src="https://www.getonecard.app/images/legal/Bank_Logos_1.png" alt=""/>
+            </div>
+          
+          
+      
+        <p class="z">India's best metal credit card. Built with full-stack tech.
+            <br>
+            Backed by the principles of simplicity, transparency, and 
+            <br>
+            giving back control to the user.</p>
+            <button>Apply Now</button>
+    </div>
+    <div>
+        <video autoplay loop src="https://www.getonecard.app/images/say_hi_2x_d3_.mp4" alt="video"></video>
+    </div>
+   </div>
 </body>
 </html>
