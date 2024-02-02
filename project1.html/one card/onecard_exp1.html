@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         #container{
-            height: 500px;
+            height: 600px;
             width: 80%;
             margin: auto;
             /* border: 1px solid black; */
@@ -77,13 +77,158 @@ margin: auto;;
             border: 0px;
 
         }
-        video{
+        .main2>video{
             height: 100%;
             width: 100%;
         }
+        .second{
+            height: 600px;
+            width: 100%;
+            display: flex;
+            border: 1px solid black;
+            background-color: rgb(0,0,0);
+        }
+        #container2{
+            display: flex;
+            height: 80%;
+            margin: auto;
+            width: 90%;
+           
+            flex-direction: column;
+            /* border: 1px solid white; */
+        }
+        #container2>div{
+            height: 40%;
+            width: 100%;
+            /* border: 1px solid white; */
+            
+        }
+        .s1{
+            font-family: manrope, sans-serif;;
+            font-size: 90px;
+            font-weight: 500;
+            line-height: 101px;
+            color: rgb(69,146,192);
+            text-align: center;
+            margin: auto;
+            /* margin-bottom: 150px; */
+        }
+        .s2{
+            font-family: Manrope;;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 60px;
+            color: #ffffff;
+            text-align: center;
+        }
+        .sc2{
+            height: 60%;
+        }
+        .main{
+            height: 40px;
+            width: 80%;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            /* align-items: center; */
+            justify-content: center;
+        }
+        .main>div{
+/* border: 1px solid black; */
+/* padding: 20px; */
+height: 100%;
+margin: auto;
+width: 110px;
+font-style: manrope;
+            font-size: 800;
+            font-weight: bold;
+/* flex-grow: 2; */
+
+        }
+        .logo{
+            flex-grow: 1;
+        }
+/* **************
+        THIRD WEB PAGE OF ONE CARD
+        *************************************** */
+        #container3{
+            height: 600px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+        }
+        #container3>div{
+            height: 90%;
+            width: 400%;
+            /* border: 1px solid black; */
+            margin: auto;
+        }
+        .sc31>video{
+            height: 90%;
+            width: 100%;
+        }
+        .sc32{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 60%;
+        }
+      .ssc331{
+        height: 20%;
+        width: 20%;
+        /* border: 1px solid black; */
+        
+      }
+      .ssc31>img{
+        height: 100%;
+        width: 100%;
+      }
+      .ssc32{
+        height: 80%;
+        width: 80%;
+        /* border: 1px solid black; */
+      }
+      .ssc32>.p31{
+        font-family: Manrope;
+        font-size: 74px;
+        font-weight: 800;
+        line-height: 88px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
+      .ssc32>.p32{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 43px;
+        color: #696969;
+        margin: 0;
+        padding: 0;
+        text-align: end;
+      }
     </style>
 </head>
 <body>
+    <div class="main">
+        <div class="logo">
+            <img height="40px" src="https://www.getonecard.app/images/logo_black.svg" alt="image"/>
+        </div>
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Carrers</div>
+        <div>Offers</div>
+        <div>Blog</div>
+        <div>FAQ</div>
+        <div>Contact Us</div>
+        <div>
+            <button>Apply Now</button>
+        </div>
+       </div> 
     <div id="container">
         <div class="main1">
             <div class="w">
@@ -110,5 +255,42 @@ margin: auto;;
             <video autoplay loop src="https://www.getonecard.app/images/say_hi_2x_d3_.mp4" alt="video"></video>
         </div>
     </div>
+    <div class="second">
+        <div id="container2">
+            <div>
+                <p class="s1">No Hidden Fees Ever.</p>
+            </div>
+            
+            <div class="sc2">
+                <p class="s2">No Joining Fees.
+                    <br>
+                    No Annual Fees.
+                    <br>
+                    No Rewards Redemption Fees.</p>
+            </div>
+        </div>
+       </div> 
+       <!-- THIRD WEB PAGE OF ONE CARD -->
+       <div id="container3">
+        <div class="sc31">
+            <video autoplay loop src="https://www.getonecard.app/images/Website_Card_controls.mp4"></video>
+        </div>
+        <div class="sc32">
+               <div class="ssc31">
+                <img src="https://www.getonecard.app/images/feature/control_app_icon.svg" alt="">
+               </div>
+               <div class="ssc32">
+                <p class="p31">Powerful
+                    <br>
+                    mobile app</p>
+                    <p class="p32">Control all aspects of your co-
+                        <br>branded credit card from the 
+                        <br>powerful OneCard app - 
+                        <br>transaction limit, 
+                        <br>domestic/international use, <br>online/offline use, contactless <br>payments and much more.</p>
+
+               </div>
+        </div>
+       </div>
 </body>
 </html>
