@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #container{
+            height: 650px;
+            width: 600px;
+            display: flex;
+            border: 1px solid black;
+            position: relative;
+            margin: auto;
+        }
+        #container>img{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            top: auto;
+            left: 0;
+            margin: auto;
+        }
+        /* .img1{
+            margin-left: 40px;
+        } */
+        /* .img2{
+          
+        } */
+         /* .img2{
+            opacity: 0.5;
+            z-index: 1; 
+            top: 20px;
+            right: 20px;
+             rotate: l4; 
+            
+        } */
+         .img1{
+            left: 6px;
+            top: 10PX;
+        }
+        .img3{
+            width: 130px;
+            height: 590px;
+            margin: auto;
+            height: 205px;
+            top: 11px;
+            left: 120px;
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+            border-radius: 25%;
+             /* bottom: v50px;  */
+             left: 40px; 
+        } 
+        #header{
+            height: 30px;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        #header>div{
+            /* padding: 40px; */
+            height: 100%;
+            width: 125px;
+            /* border: 1px solid black; */
+             /* flex-grow: 1; */
+             margin: auto;
+             /* text-align: center; */
+             display: flex;
+             /* justify-content: center; */
+        }
+        .grow{
+            flex-grow: 1;
+        }
+        #header img{
+           margin-left: 0%;
+           margin-right: 5%;
+           /* text-align: right; */
+           height: 30px;
+           width: 30px;
+           justify-content: flex-start;
+           text-align: left;
+           /* margin-top: 20px; */
+        }
+        .p2{
+            text-align: center;
+            margin: auto;
+        }
+        .b{
+            /* justify-content: end; */
+            margin-left: 55%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #container2{
+            height: 600px;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            border: 1px solid black;
+        }
+        #container2>div{
+            height: 100%;
+            width: 45%;
+            margin: auto;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+        }
+        .div1>div{
+            height: 45%;
+            display: flex;
+            width: 100%;
+            /* flex-direction: column; */
+            margin: auto;
+            border: 1px solid black;
+
+        }
+        .div2{
+            display: flex;
+            flex-direction: row;
+        }
+        .div2>div{
+            display: flex;
+            /* flex-direction: row; */
+            height: 100%;
+            width: 33%;
+            border: 1px solid black;
+
+        }
+        .div2>img{
+            height: 80px;
+            width: 50px;
+        }
+        .b1{
+            padding-left: 30px;
+            padding-right: 30px;
+            
+        }
+        .div3{
+              flex-direction: column;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--  -->
+    <div id="header">
+        <div class="grow">
+            <img src="logo.png" alt="">
+            <!-- <p class="p1">E GURU</p> -->
+            E GURU
+        </div>
+        <div>
+            <p class="p2">HOME</p></div>
+        <div>
+            <p class="p2">About Us</p></div>
+        <div>
+            <p class="p2">Features</p></div>
+        <div>
+            <p class="p2">How It Works</p>
+        </div>
+        <div class="grow">
+            <button class="b">Sign Up</button>
+        </div>
+    </div>
+    <div id="container2">
+        <div class="div1">
+            <div class="div3">
+                <p>STUDY FRON <br>HOME WITH EXTPERT</p>
+            <p>A learning system based on formalised <br>teaching with the help of resources</p>
+            </div>
+            <div class="div2">
+                <div>
+                    <button class="b1">Get Started</button>
+                </div>
+                <div>
+                    <button class="b1">Learn More</button>
+                </div>
+                <div>
+                    <img src="curve-arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="container">
+                <img class="img2" src="main-image-bg.png" alt="">
+                <img class="img1" src="main-image-pattern.png" alt="">
+                <img class="img3" src="main-image.png" alt="">
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>;

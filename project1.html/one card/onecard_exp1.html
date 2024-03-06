@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         #container{
-            height: 600px;
+            height: 700px;
             width: 80%;
             margin: auto;
             /* border: 1px solid black; */
@@ -132,7 +132,7 @@ margin: auto;;
             flex-direction: row;
             margin: auto;
             /* align-items: center; */
-            justify-content: center;
+            /* justify-content: center; */
         }
         .main>div{
 /* border: 1px solid black; */
@@ -140,6 +140,8 @@ margin: auto;;
 height: 100%;
 margin: auto;
 width: 110px;
+display: flex;
+/* text-align: right; */
 font-style: manrope;
             font-size: 800;
             font-weight: bold;
@@ -148,6 +150,13 @@ font-style: manrope;
         }
         .logo{
             flex-grow: 1;
+            /* justify-content: flex-start;
+            
+            text-align: left; */
+            /* margin-right: 50%; */
+        }
+        .logo>img{
+            margin-right: 50%;
         }
 /* **************
         THIRD WEB PAGE OF ONE CARD
@@ -569,28 +578,35 @@ width: 340px;
 
 }
 #container11{
+    height: 1200px;
     background-color: rgb(12,22,27);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
 }
 .social{
-    /* height: 100px; */
-    /* width: 199%; */
+    height: 60px;
+    width: 80%;
+    margin: auto;
     /* text-align: center; */
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     justify-content: center;                  /* //to use justify-content: there should be no width*/
-    /* border: 1px solid white; */
-    background-color: rgb(12,22,27);
+    border: 1px solid white;
+    /* background-color: rgb(12,22,27); */
     /* align-items: center; */
+    /* margin: 0;
+    padding: 2; */
 }
 .social>div{
-   padding-right: 5px;
-   padding-left: 5px;
+   /* padding-right: 5px;
+
+   padding-left: 5px; */
     /* margin: auto; */
-    /* border: 1px solid white; */
+    border: 1px solid white;
+    height: 100%;
+    width: 60px;
 }
 
 /* #container11 img{
@@ -599,8 +615,8 @@ width: 340px;
     
 } */
 .social img{
-    height: 35px;
-    width: 35px;
+    height: 60px;
+    width: 60px;
 }
 .foot1{
     height: 300px;
@@ -616,6 +632,7 @@ width: 340px;
     border: 1px solid white;
     display: flex;
     margin: auto;
+    
 
 }
 .sf1{
@@ -627,10 +644,14 @@ width: 340px;
 .fi1{
     height: 80px;
     width: 80px;
+    margin: 0;
+    padding: 0;
 }
 .fi2{
     height: 60px;
     width: 40%;
+    margin: 0;
+    padding: 0;
 }
 .fp1{
 font-family: Manrope;
@@ -869,12 +890,12 @@ color: #ffffff;
                                                 <!-- ********************* -->
                                                 <!-- ************** -->
                                                 <!-- ******* -->
-                                                <div id="container11">
-                                                   <div><img class="fi1" src="https://www.getonecard.app/images/One_logo_white_59by336.svg" alt=""></div>
-                                                  <div> <img class="fi2" src="https://www.getonecard.app/images/icons/crafted_with_love.svg" alt=""></div>
+                                            <div id="container11">
+                                                   <img class="fi1" src="https://www.getonecard.app/images/One_logo_white_59by336.svg" alt="">
+                                                  <img class="fi2" src="https://www.getonecard.app/images/icons/crafted_with_love.svg" alt="">
                                                     <p class="fp1">We are all ears!</p>
                                                    <p class="fp2">We are a new kid on the block, eager to learn.
-                                                    All ideas and suggestions are welcome.
+                                                   <br> All ideas and suggestions are welcome.
                                                     </p>
                                                     <p class="fp2">Follow Us On</p> 
                                                    
@@ -900,9 +921,9 @@ color: #ffffff;
                                                         <div class="sf2"></div>
                                                         <div class="sf2"></div>
                                                     </div> -->
+                                                    <img src="https://www.getonecard.app/images/legal/Bank_Logos_1.png" alt="">
 
-                                                </div>
-                                              
 
-                                                </body>
+                                            </div>
+                                         </body>
 </html>
