@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h5 id="heading">0</h5>
+    <button id="like" onclick="myfun()">♡Like</button>
+    <button id="unlike" onclick="fun2()">Unlike</button>
+</body>
+</html>
+<script>
+    function myfun(){
+        document.getElementById("like").style.color="red"
+        document.getElementById("heading").innerText++
+        
+        
+    }
+    function fun2(){
+        document.getElementById("heading").innerText--
+        document.getElementById("unlike").style.color="yellow"
+    }
+</script>
